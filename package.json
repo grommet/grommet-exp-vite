@@ -11,6 +11,7 @@
   "dependencies": {
     "grommet-exp": "file:.yalc/grommet-exp",
     "grommet-exp-theme": "file:.yalc/grommet-exp-theme",
+    "grommet-exp-tokens": "file:.yalc/grommet-exp-tokens",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

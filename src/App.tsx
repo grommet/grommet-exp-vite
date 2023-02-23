@@ -1,4 +1,4 @@
-import { Anchor, Box, Heading, Paragraph, Text } from 'grommet-exp';
+import { Anchor, Box, Button, Heading, Paragraph, Text } from "grommet-exp";
 import { themeClass, vars } from "grommet-exp-theme";
 
 function App() {
@@ -10,9 +10,10 @@ function App() {
         <Anchor href="">Anchor</Anchor>
         <Text>Text</Text>
         <Text size="small">small Text</Text>
+        <Button label="Test primary button" kind="primary" />
       </Box>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
