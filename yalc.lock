@@ -2,7 +2,11 @@
   "version": "v1",
   "packages": {
     "grommet-exp": {
-      "signature": "3c883bc1d69aa18bd865c042431778a9",
+      "signature": "1bf935cfcd11fa07d5a99820015b95bc",
+      "file": true
+    },
+    "grommet-exp-theme": {
+      "signature": "b4dc017a2232913d4fabd0b7406edc69",
       "file": true
     }
   }

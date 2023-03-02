@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "grommet-exp": "file:.yalc/grommet-exp",
+    "grommet-exp-theme": "file:.yalc/grommet-exp-theme",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
