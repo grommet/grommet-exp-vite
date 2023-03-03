@@ -10,18 +10,16 @@ import {
 
 function App() {
   return (
-    <div className="App">
-      <Grommet>
-        <Heading level={1}>Grommet exploration sample app</Heading>
-        <Paragraph>React + Vanilla Extract + Vite</Paragraph>
-        <Box gap="medium">
-          <Anchor href="">Anchor</Anchor>
-          <Text>Text</Text>
-          <Text size="small">small Text</Text>
-          <Button label="Test primary button" kind="primary" />
-        </Box>
-      </Grommet>
-    </div>
+    <Grommet>
+      <Heading level={1}>Grommet exploration sample app</Heading>
+      <Paragraph>React + Vanilla Extract + Vite</Paragraph>
+      <Box gap="medium" align="start">
+        <Anchor href="">Anchor</Anchor>
+        <Text>Text</Text>
+        <Text size="small">small Text</Text>
+        <Button label="Test primary button" kind="primary" />
+      </Box>
+    </Grommet>
   );
 }
 

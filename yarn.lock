@@ -672,12 +672,22 @@ globals@^11.1.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
+"grommet-exp-theme@file:.yalc/grommet-exp-theme":
+  version "1.0.0"
+  dependencies:
+    "@vanilla-extract/css" "^1.9.5"
+    "@vanilla-extract/recipes" "^0.3.0"
+    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-32a4c1e8-9a23-42cf-96b9-d70e1c8fdfec-1677812505931/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+
 "grommet-exp-theme@file:.yalc/grommet-exp/.yalc/grommet-exp-theme":
   version "1.0.0"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-85dcf836-76a8-4730-915f-63d962cd4193-1677283761555/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-ee77bce5-209a-41f3-83ee-5c8cc0a78967-1677812505926/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+
+"grommet-exp-tokens@file:.yalc/grommet-exp-theme/.yalc/grommet-exp-tokens":
+  version "0.1.0"
 
 "grommet-exp-tokens@file:.yalc/grommet-exp/.yalc/grommet-exp-theme/.yalc/grommet-exp-tokens":
   version "0.1.0"
@@ -685,7 +695,7 @@ globals@^11.1.0:
 "grommet-exp@file:.yalc/grommet-exp":
   version "0.1.0"
   dependencies:
-    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-c8a6dcdf-f0af-45a7-82cf-efd31c8c7311-1677283761554/node_modules/grommet-exp/.yalc/grommet-exp-theme"
+    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-4302ddb8-f3fc-4483-ad11-5f630449f27a-1677812505924/node_modules/grommet-exp/.yalc/grommet-exp-theme"
 
 has-flag@^3.0.0:
   version "3.0.0"
