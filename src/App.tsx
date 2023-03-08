@@ -2,8 +2,11 @@ import {
   Anchor,
   Box,
   Button,
+  Footer,
   Grommet,
-  Heading,
+  Page,
+  PageContent,
+  PageHeader,
   Paragraph,
   Text,
 } from "grommet-exp";
@@ -11,14 +14,26 @@ import {
 function App() {
   return (
     <Grommet>
-      <Heading level={1}>Grommet exploration sample app</Heading>
-      <Paragraph>React + Vanilla Extract + Vite</Paragraph>
-      <Box gap="medium" align="start">
-        <Anchor href="">Anchor</Anchor>
-        <Text>Text</Text>
-        <Text size="small">small Text</Text>
-        <Button label="Test primary button" kind="primary" />
-      </Box>
+      <Page kind="narrow">
+        <PageContent>
+          <PageHeader
+            title="Grommet Experiment"
+            subtitle="grommet exploration sample app"
+          />
+          <Paragraph>React + Vanilla Extract + Vite</Paragraph>
+          <Box gap="medium" align="start">
+            <Anchor href="">Anchor</Anchor>
+            <Text>Text</Text>
+            <Text size="small">small Text</Text>
+            <Button label="Test primary button" kind="primary" />
+          </Box>
+          <Footer margin={{ vertical: 'medium' }}>
+            <Text size="small" color="weak">
+              a work in progress
+            </Text>
+          </Footer>
+        </PageContent>
+      </Page>
     </Grommet>
   );
 }
