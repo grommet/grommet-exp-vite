@@ -379,6 +379,28 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@rollup/plugin-image@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-image/-/plugin-image-3.0.2.tgz#8a66389510517495c5d10d392140cdefa43b27c2"
+  integrity sha512-eGVrD6lummWH5ENo9LWX3JY62uBb9okUNQ2htXkugrG6WjACrMUVhWvss+0wW3fwJWmFYpoEny3yL4spEdh15g==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.1"
+    mini-svg-data-uri "^1.4.4"
+
+"@rollup/pluginutils@^5.0.1":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.2.tgz#012b8f53c71e4f6f9cb317e311df1404f56e7a33"
+  integrity sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^2.3.1"
+
+"@types/estree@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.0.tgz#5fb2e536c1ae9bf35366eed879e827fa59ca41c2"
+  integrity sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -637,6 +659,11 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
 
+estree-walker@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
+
 eval@0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/eval/-/eval-0.1.6.tgz#9620d7d8c85515e97e6b47c5814f46ae381cb3cc"
@@ -677,14 +704,14 @@ globals@^11.1.0:
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-67638ef2-60ea-4730-b707-037196be446a-1678311047269/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-94ecf9e3-4020-4d40-875b-db1bd5c58efc-1678318072370/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
 
 "grommet-exp-theme@file:.yalc/grommet-exp/.yalc/grommet-exp-theme":
   version "1.0.0"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-68b64876-da4b-4f49-be0b-10606cf4b5b0-1678311047263/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-83dbce84-a09f-4662-8c2d-df3792d19df6-1678318072364/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
 
 "grommet-exp-tokens@file:.yalc/grommet-exp-theme/.yalc/grommet-exp-tokens":
   version "0.1.0"
@@ -695,7 +722,19 @@ globals@^11.1.0:
 "grommet-exp@file:.yalc/grommet-exp":
   version "0.1.0"
   dependencies:
-    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-f48834b1-ab77-4168-8ae9-a338dfc8342f-1678311047261/node_modules/grommet-exp/.yalc/grommet-exp-theme"
+    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-035e2611-af91-4bd6-a68a-dcdae977380b-1678318072363/node_modules/grommet-exp/.yalc/grommet-exp-theme"
+
+grommet-icons@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/grommet-icons/-/grommet-icons-4.9.0.tgz#ec1719b8ffc4895375d293cb2334ec50d6ae58a9"
+  integrity sha512-+wfO9vZxH8MJGGf/N8Myyyub9+3nCy/V6Rmk7gwohgnniM1d7nVRViuvhmE80OD+NyTpcCElGW8USD32l9AQ3A==
+  dependencies:
+    grommet-styles "^0.2.0"
+
+grommet-styles@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/grommet-styles/-/grommet-styles-0.2.0.tgz#b2eac2b7e2747cb523434d21728ce5234f8ce4f4"
+  integrity sha512-0OMSYuGeyifYKpg4Gv2HzL8rUdd0ddnJ5LbCBKgDuloC71XIwr9g/Fxa6rs737MbPV7OZ4pEm4wvrjH4epzf1A==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -791,6 +830,11 @@ media-query-parser@^2.0.2:
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+mini-svg-data-uri@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
+
 mlly@^1.1.0, mlly@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.1.1.tgz#f1838b14795e2cc284aa4ebcc76a258a52e6f537"
@@ -854,6 +898,11 @@ picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+
+picomatch@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 pkg-types@^1.0.1:
   version "1.0.2"
