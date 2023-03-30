@@ -18,6 +18,7 @@ import {
 
 import hpe from "grommet-icons/img/hpe.svg";
 import notification from "grommet-icons/img/notification.svg";
+import linkNext from "grommet-icons/img/link-next.svg";
 import helpOption from "grommet-icons/img/help-option.svg";
 import appsRounded from "grommet-icons/img/apps-rounded.svg";
 
@@ -47,36 +48,50 @@ function App() {
             subtitle="grommet exploration sample app"
           />
           <Box gap="medium">
-            <Box gap="small">
-              <Heading level={2}>Level 2</Heading>
-              <Paragraph level={2}>
-                Level 2: Supportive text for level 2 heading. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
-              </Paragraph>
-            </Box>
-            <Box gap="small">
-              <Heading level={3}>Level 3</Heading>
-              <Paragraph level={3}>
-                Level 3: Supportive text for level 3 heading.
-              </Paragraph>
-            </Box>
-            <Paragraph>React + Vanilla Extract + Vite</Paragraph>
+            <Heading level={2}>Cards</Heading>
+            <Paragraph level={2}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </Paragraph>
+            <Grid columns="small" gap="medium">
+              <Box elevation="medium" pad="medium" round="medium" gap="small">
+                <Heading level={3}>Weather</Heading>
+                <Paragraph level={3}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </Paragraph>
+                <Footer>
+                  <div />
+                  <Button icon={<Icon src={linkNext} />} />
+                </Footer>
+              </Box>
+              <Box elevation="medium" pad="medium" round="medium" gap="small">
+                <Heading level={3}>Daylight</Heading>
+                <Paragraph level={3}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </Paragraph>
+                <Footer>
+                  <div />
+                  <Button icon={<Icon src={linkNext} />} />
+                </Footer>
+              </Box>
+              <Box elevation="medium" pad="medium" round="medium" gap="small">
+                <Heading level={3}>Fun</Heading>
+                <Paragraph level={3}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </Paragraph>
+                <Footer>
+                  <div />
+                  <Button icon={<Icon src={linkNext} />} />
+                </Footer>
+              </Box>
+            </Grid>
             <Box gap="medium" align="start">
               <Anchor href="">Anchor</Anchor>
-              <Text size="small" color="weak">
-                small Text with color
-              </Text>
               <Button label="Test primary button" kind="primary" />
             </Box>
-            <Grid columns="small" gap="medium">
-              <Box background="contrast" pad="large" />
-              <Box background="contrast" pad="large" />
-              <Box background="contrast" pad="large" />
-              <Box background="contrast" pad="large" />
-            </Grid>
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
                 a work in progress
