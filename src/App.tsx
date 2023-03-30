@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Footer,
+  Grid,
   Grommet,
   Heading,
   Header,
@@ -70,6 +71,12 @@ function App() {
               </Text>
               <Button label="Test primary button" kind="primary" />
             </Box>
+            <Grid columns="small" gap="medium">
+              <Box background="contrast" pad="large" />
+              <Box background="contrast" pad="large" />
+              <Box background="contrast" pad="large" />
+              <Box background="contrast" pad="large" />
+            </Grid>
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
                 a work in progress
