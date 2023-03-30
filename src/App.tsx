@@ -4,6 +4,7 @@ import {
   Button,
   Footer,
   Grommet,
+  Heading,
   Header,
   Icon,
   Nav,
@@ -44,18 +45,37 @@ function App() {
             title="Grommet Experiment"
             subtitle="grommet exploration sample app"
           />
-          <Paragraph>React + Vanilla Extract + Vite</Paragraph>
-          <Box gap="medium" align="start">
-            <Anchor href="">Anchor</Anchor>
-            <Text>Text</Text>
-            <Text size="small">small Text</Text>
-            <Button label="Test primary button" kind="primary" />
+          <Box gap="medium">
+            <Box gap="small">
+              <Heading level={2}>Level 2</Heading>
+              <Paragraph level={2}>
+                Level 2: Supportive text for level 2 heading. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </Paragraph>
+            </Box>
+            <Box gap="small">
+              <Heading level={3}>Level 3</Heading>
+              <Paragraph level={3}>
+                Level 3: Supportive text for level 3 heading.
+              </Paragraph>
+            </Box>
+            <Paragraph>React + Vanilla Extract + Vite</Paragraph>
+            <Box gap="medium" align="start">
+              <Anchor href="">Anchor</Anchor>
+              <Text size="small" color="weak">
+                small Text with color
+              </Text>
+              <Button label="Test primary button" kind="primary" />
+            </Box>
+            <Footer margin={{ vertical: "medium" }}>
+              <Text size="small" color="weak">
+                a work in progress
+              </Text>
+            </Footer>
           </Box>
-          <Footer margin={{ vertical: "medium" }}>
-            <Text size="small" color="weak">
-              a work in progress
-            </Text>
-          </Footer>
         </PageContent>
       </Page>
     </Grommet>
