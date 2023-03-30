@@ -4,13 +4,14 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "grommet-exp": "file:.yalc/grommet-exp",
     "grommet-exp-theme": "file:.yalc/grommet-exp-theme",
+    "grommet-exp-tokens": "file:.yalc/grommet-exp-tokens",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

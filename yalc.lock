@@ -1,12 +1,16 @@
 {
   "version": "v1",
   "packages": {
-    "grommet-exp": {
-      "signature": "1f0b03d787442ad11d79189ea3da2bfe",
+    "grommet-exp-theme": {
+      "signature": "701d8c0e76af7de4f95bcde8ebee6261",
       "file": true
     },
-    "grommet-exp-theme": {
-      "signature": "1503950113b4980adbc59466b2644a5d",
+    "grommet-exp": {
+      "signature": "89a722493a2f0545aa29023123bc34cc",
+      "file": true
+    },
+    "grommet-exp-tokens": {
+      "signature": "7336eb0a1d22e6e26f96a9c53403bb50",
       "file": true
     }
   }

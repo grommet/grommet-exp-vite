@@ -29,10 +29,9 @@ function App() {
             <Text>HPE GreenLake</Text>
           </Box>
           <Nav direction="row" justify="center">
-            <Button label="Dashboard" />
-            <Button label="Applications" />
-            <Button label="Devices" />
-            <Button label="Manage" />
+            <Button label="Home" size="xsmall" />
+            <Button label="Devices" size="xsmall" />
+            <Button label="Manage" size="xsmall" />
           </Nav>
           <Box direction="row" align="center" gap="small">
             <Button icon={<Icon src={notification} />} />
