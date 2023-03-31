@@ -48,11 +48,13 @@ function App() {
             subtitle="grommet exploration sample app"
           />
           <Box gap="medium">
-            <Heading level={2}>Cards</Heading>
-            <Paragraph level={2}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </Paragraph>
+            <Box gap="small">
+              <Heading level={2}>Cards</Heading>
+              <Paragraph level={2}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </Paragraph>
+            </Box>
             <Grid columns="small" gap="medium">
               <Box elevation="medium" pad="medium" round="medium" gap="small">
                 <Heading level={3}>Weather</Heading>
@@ -88,6 +90,9 @@ function App() {
                 </Footer>
               </Box>
             </Grid>
+            <Box gap="medium" align="start">
+              <Button label="Test primary button" kind="primary" />
+            </Box>
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
                 a work in <Anchor href="">progress</Anchor>
