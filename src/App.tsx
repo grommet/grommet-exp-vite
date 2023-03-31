@@ -25,7 +25,7 @@ import appsRounded from "grommet-icons/img/apps-rounded.svg";
 function App() {
   return (
     <Grommet>
-      <Page kind="narrow">
+      <Page kind="wide">
         <Header pad="small" border="bottom">
           <Box direction="row" align="center" gap="small">
             <Icon size="xlarge" src={hpe} />
@@ -88,13 +88,9 @@ function App() {
                 </Footer>
               </Box>
             </Grid>
-            <Box gap="medium" align="start">
-              <Anchor href="">Anchor</Anchor>
-              <Button label="Test primary button" kind="primary" />
-            </Box>
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
-                a work in progress
+                a work in <Anchor href="">progress</Anchor>
               </Text>
             </Footer>
           </Box>
