@@ -56,7 +56,7 @@ function App() {
               </Paragraph>
             </Box>
             <Grid columns="small" gap="medium">
-              <Box elevation="medium" pad="medium" round="medium" gap="small">
+              <Box elevation="medium" pad="medium" round="large" gap="small">
                 <Heading level={3}>Weather</Heading>
                 <Paragraph level={3}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
