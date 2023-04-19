@@ -851,20 +851,20 @@ globals@^11.1.0:
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-23ffed06-0188-4b63-a764-aac55ce797ae-1681889358536/node_modules/grommet-exp-theme/.yalc/hpe-design-tokens"
+    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-1bbbd505-071b-4d24-999e-0f44a7d43406-1681890190592/node_modules/grommet-exp-theme/.yalc/hpe-design-tokens"
 
 "grommet-exp-theme@file:.yalc/grommet-exp/.yalc/grommet-exp-theme":
   version "1.0.0"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-bbd3f1f2-a0f3-416e-aac3-71fb4a93dc2c-1681889357236/node_modules/grommet-exp-theme/.yalc/hpe-design-tokens"
+    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-141cb306-340a-4e97-ac15-49e64edce23b-1681890190586/node_modules/grommet-exp-theme/.yalc/hpe-design-tokens"
 
 "grommet-exp@file:.yalc/grommet-exp":
   version "0.1.0"
   dependencies:
-    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-57a4b3df-948b-4234-91a3-254e5036e4ba-1681889357233/node_modules/grommet-exp/.yalc/grommet-exp-theme"
-    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-57a4b3df-948b-4234-91a3-254e5036e4ba-1681889357233/node_modules/grommet-exp/.yalc/hpe-design-tokens"
+    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-78e17326-7822-4cb1-8023-63ece945f649-1681890190584/node_modules/grommet-exp/.yalc/grommet-exp-theme"
+    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-78e17326-7822-4cb1-8023-63ece945f649-1681890190584/node_modules/grommet-exp/.yalc/hpe-design-tokens"
 
 grommet-icons@^4.9.0:
   version "4.10.0"
@@ -902,6 +902,9 @@ has@^1.0.3:
   version "0.1.0"
 
 "hpe-design-tokens@file:.yalc/grommet-exp/.yalc/hpe-design-tokens":
+  version "0.1.0"
+
+"hpe-design-tokens@file:.yalc/hpe-design-tokens":
   version "0.1.0"
 
 is-core-module@^2.11.0:
