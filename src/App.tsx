@@ -2,6 +2,7 @@ import {
   Anchor,
   Box,
   Button,
+  Card,
   Footer,
   Grid,
   Grommet,
@@ -55,8 +56,8 @@ function App() {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Paragraph>
             </Box>
-            <Grid columns="small" gap="medium">
-              <Box elevation="medium" pad="medium" round="large" gap="small">
+            <Grid as="ul" columns="small" gap="medium">
+              <Card as="li">
                 <Heading level={3}>Weather</Heading>
                 <Paragraph level={3}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -66,8 +67,8 @@ function App() {
                   <div />
                   <Button icon={<Icon src={linkNext} />} />
                 </Footer>
-              </Box>
-              <Box elevation="medium" pad="medium" round="medium" gap="small">
+              </Card>
+              <Card as="li">
                 <Heading level={3}>Daylight</Heading>
                 <Paragraph level={3}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -77,8 +78,8 @@ function App() {
                   <div />
                   <Button icon={<Icon src={linkNext} />} />
                 </Footer>
-              </Box>
-              <Box elevation="medium" pad="medium" round="medium" gap="small">
+              </Card>
+              <Card as="li">
                 <Heading level={3}>Fun</Heading>
                 <Paragraph level={3}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -88,7 +89,7 @@ function App() {
                   <div />
                   <Button icon={<Icon src={linkNext} />} />
                 </Footer>
-              </Box>
+              </Card>
             </Grid>
             <Box gap="medium" align="start">
               <Button label="Test primary button" kind="primary" />
