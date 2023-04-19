@@ -854,16 +854,16 @@ globals@^11.1.0:
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    grommet-exp-tokens "file:../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-06e7a543-8a7b-4970-9d93-c84b14a4572b-1680128959757/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+    hpe-design-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-8a4216ed-64c1-4ff5-a035-f72e3d310550-1681410211367/node_modules/grommet-exp-theme/.yalc/hpe-design-tokens"
 
 "grommet-exp-theme@file:.yalc/grommet-exp/.yalc/grommet-exp-theme":
   version "1.0.0"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
-    grommet-exp-tokens "file:../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-45daad76-e6e3-414f-a600-66ab6824b167-1680128958881/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
+    grommet-exp-tokens "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-theme-1.0.0-246e6026-1c77-4863-8802-86ffd374c92e-1681410211359/node_modules/grommet-exp-theme/.yalc/grommet-exp-tokens"
 
-"grommet-exp-tokens@file:.yalc/grommet-exp-theme/.yalc/grommet-exp-tokens":
+"grommet-exp-tokens@file:.yalc/grommet-exp-tokens":
   version "0.1.0"
 
 "grommet-exp-tokens@file:.yalc/grommet-exp/.yalc/grommet-exp-theme/.yalc/grommet-exp-tokens":
@@ -872,7 +872,7 @@ globals@^11.1.0:
 "grommet-exp@file:.yalc/grommet-exp":
   version "0.1.0"
   dependencies:
-    grommet-exp-theme "file:../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-60ff9a74-aa8c-42f1-994b-c98a2bef0483-1680128958877/node_modules/grommet-exp/.yalc/grommet-exp-theme"
+    grommet-exp-theme "file:../../../Library/Caches/Yarn/v6/npm-grommet-exp-0.1.0-20ce4954-0002-43ae-8e85-a743f9a5f3ce-1681410211357/node_modules/grommet-exp/.yalc/grommet-exp-theme"
 
 grommet-icons@^4.9.0:
   version "4.10.0"
@@ -902,6 +902,9 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
+
+"hpe-design-tokens@file:.yalc/grommet-exp-theme/.yalc/hpe-design-tokens":
+  version "0.1.0"
 
 is-core-module@^2.9.0:
   version "2.11.0"
