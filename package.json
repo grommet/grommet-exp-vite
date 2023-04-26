@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "grommet-exp": "file:.yalc/grommet-exp",
-    "grommet-exp-theme": "file:.yalc/grommet-exp-theme",
-    "hpe-design-tokens": "file:.yalc/hpe-design-tokens",
+    "grommet-exp": "https://github.com/grommet/grommet-exp/tarball/stable",
+    "grommet-exp-theme": "https://github.com/grommet/grommet-exp-theme/tarball/stable",
+    "hpe-design-tokens": "https://github.com/grommet/hpe-design-tokens/tarball/stable",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
