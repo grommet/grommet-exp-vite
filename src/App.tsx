@@ -18,6 +18,7 @@ import {
   PageContent,
   PageHeader,
   Paragraph,
+  Select,
   Text,
   TextInput,
 } from "grommet-exp";
@@ -99,8 +100,11 @@ function App() {
 
             <Form width="medium">
               <Heading level={2}>Form</Heading>
-              <FormField label="text">
+              <FormField label="text input">
                 <TextInput />
+              </FormField>
+              <FormField label="select">
+                <Select options={['one', 'two']} />
               </FormField>
               <Footer>
                 <Button kind="primary" label="submit" />
