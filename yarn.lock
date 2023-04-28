@@ -736,9 +736,9 @@ deepmerge@^4.2.2:
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.372"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.372.tgz#7888ac92ccb9556627c3a37eba3b89ee5ac345f8"
-  integrity sha512-MrlFq/j+TYHOjeWsWGYfzevc25HNeJdsF6qaLFrqBTRWZQtWkb1myq/Q2veLWezVaa5OcSZ99CFwTT4aF4Mung==
+  version "1.4.376"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.376.tgz#a771d6c4db028634df126348a4f94075e07e7f65"
+  integrity sha512-TFeOKd98TpJzRHkr4Aorn16QkMnuCQuGAE6IZ0wYF+qkbSfMPqjplvRppR02tMUpVxZz8nyBNvVm9lIZsqrbPQ==
 
 esbuild@0.17.6:
   version "0.17.6"
@@ -843,7 +843,7 @@ globals@^11.1.0:
 
 "grommet-exp-theme@https://github.com/grommet/grommet-exp-theme/tarball/stable":
   version "1.0.0"
-  resolved "https://github.com/grommet/grommet-exp-theme/tarball/stable#e50d05a995a7e4f6767ea6a26d1ab27216dca4d9"
+  resolved "https://github.com/grommet/grommet-exp-theme/tarball/stable#ac402081b10dc314d66ed1886591f0f4d32e346f"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
@@ -851,7 +851,7 @@ globals@^11.1.0:
 
 "grommet-exp@https://github.com/grommet/grommet-exp/tarball/stable":
   version "0.1.0"
-  resolved "https://github.com/grommet/grommet-exp/tarball/stable#311417bb7cc543f9901c35f9e253f145a4548ca1"
+  resolved "https://github.com/grommet/grommet-exp/tarball/stable#f8ead111b18c7e9982e14e2ac4d68ce89430dd69"
   dependencies:
     grommet-exp-theme "https://github.com/grommet/grommet-exp-theme/tarball/stable"
     hpe-design-tokens "https://github.com/grommet/hpe-design-tokens/tarball/stable"
@@ -880,8 +880,8 @@ has-flag@^4.0.0:
 
 "hpe-design-tokens@https://github.com/grommet/hpe-design-tokens/tarball/stable":
   version "0.1.0"
-  uid "4730a3cb332c14dfba17f753f7815f90323a9b15"
-  resolved "https://github.com/grommet/hpe-design-tokens/tarball/stable#4730a3cb332c14dfba17f753f7815f90323a9b15"
+  uid "2b2002b4f3367b8adf2c2e507775413fe037a613"
+  resolved "https://github.com/grommet/hpe-design-tokens/tarball/stable#2b2002b4f3367b8adf2c2e507775413fe037a613"
 
 javascript-stringify@^2.0.1:
   version "2.1.0"

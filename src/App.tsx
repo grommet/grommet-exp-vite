@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   Card,
+  Carousel,
   Footer,
   Form,
   FormField,
@@ -124,11 +125,22 @@ function App() {
               </NameValuePair>
             </NameValueList>
 
+            <Nav>
+              <Button label="My stuff" />
+              <Button label="Services" />
+            </Nav>
+
+            <Carousel>
+              <img src="http://www.destination360.com/north-america/us/california/images/s/california-golden-gate-bridge.jpg" />
+              <img src="http://humanhistoryintheearth.weebly.com/uploads/2/9/4/3/29437959/5378260_orig.jpg" />
+            </Carousel>
+
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
                 a work in <Anchor href="">progress</Anchor>
               </Text>
             </Footer>
+
           </Box>
         </PageContent>
       </Page>
