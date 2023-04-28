@@ -20,6 +20,8 @@ import {
   PageHeader,
   Paragraph,
   Select,
+  Tabs,
+  Tab,
   Text,
   TextInput,
 } from "grommet-exp";
@@ -105,7 +107,7 @@ function App() {
                 <TextInput />
               </FormField>
               <FormField label="select">
-                <Select options={['one', 'two']} />
+                <Select options={["one", "two"]} />
               </FormField>
               <Footer>
                 <Button kind="primary" label="submit" />
@@ -135,12 +137,24 @@ function App() {
               <img src="http://humanhistoryintheearth.weebly.com/uploads/2/9/4/3/29437959/5378260_orig.jpg" />
             </Carousel>
 
+            <Tabs>
+              <Tab label="First">
+                <Box margin={{ vertical: "medium" }}>
+                  <Paragraph>Lorem ipsum ...</Paragraph>
+                </Box>
+              </Tab>
+              <Tab label="Second">
+                <Box margin={{ vertical: "medium" }}>
+                  <Paragraph size="small">Lorem ipsum ...</Paragraph>
+                </Box>
+              </Tab>
+            </Tabs>
+
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
                 a work in <Anchor href="">progress</Anchor>
               </Text>
             </Footer>
-
           </Box>
         </PageContent>
       </Page>
