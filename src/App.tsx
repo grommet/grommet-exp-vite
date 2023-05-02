@@ -12,6 +12,7 @@ import {
   Heading,
   Header,
   Icon,
+  Meter,
   NameValueList,
   NameValuePair,
   Nav,
@@ -101,6 +102,7 @@ function App() {
               </Card>
             </Grid>
 
+            <Heading level={2}>Form</Heading>
             <Form width="medium">
               <Heading level={2}>Form</Heading>
               <FormField label="text input">
@@ -127,16 +129,19 @@ function App() {
               </NameValuePair>
             </NameValueList>
 
+            <Heading level={2}>Nav</Heading>
             <Nav>
               <Button label="My stuff" />
               <Button label="Services" />
             </Nav>
 
+            <Heading level={2}>Carousel</Heading>
             <Carousel>
               <img src="http://www.destination360.com/north-america/us/california/images/s/california-golden-gate-bridge.jpg" />
               <img src="http://humanhistoryintheearth.weebly.com/uploads/2/9/4/3/29437959/5378260_orig.jpg" />
             </Carousel>
 
+            <Heading level={2}>Tabs</Heading>
             <Tabs>
               <Tab label="First">
                 <Box margin={{ vertical: "medium" }}>
@@ -149,6 +154,75 @@ function App() {
                 </Box>
               </Tab>
             </Tabs>
+
+            <Heading level={2}>Meter</Heading>
+            <Grid columns="small" gap="medium">
+              <Meter value={80} round size="small" />
+              <Meter
+                kind="qualitative"
+                values={[
+                  { label: "tropic", value: 60 },
+                  { label: "temperate", value: 20 },
+                  { label: "pole", value: 10 },
+                ]}
+                size="small"
+              />
+              <Meter
+                kind="sequential"
+                values={[
+                  { label: "light", value: [25, 20] },
+                  { label: "medium", value: [60, 50] },
+                  { label: "heavy", value: [15, 80] },
+                ]}
+                size="small"
+              />
+              <Meter
+                kind="divergent"
+                values={[
+                  { label: "disagree", value: [10, -100] },
+                  { label: "disagree a bit", value: [25, -70] },
+                  { label: "neutral", value: [30, 0] },
+                  { label: "agree a bit", value: [20, 30] },
+                  { label: "agree", value: [15, 100] },
+                ]}
+                size="small"
+              />
+            </Grid>
+            <Grid columns="small" gap="medium">
+              <Meter value={80} round type="circle" size="small" />
+              <Meter
+                kind="qualitative"
+                values={[
+                  { label: "tropic", value: 60 },
+                  { label: "temperate", value: 20 },
+                  { label: "pole", value: 10 },
+                ]}
+                type="circle"
+                size="small"
+              />
+              <Meter
+                kind="sequential"
+                values={[
+                  { label: "light", value: [25, 20] },
+                  { label: "medium", value: [60, 50] },
+                  { label: "heavy", value: [15, 80] },
+                ]}
+                type="pie"
+                size="small"
+              />
+              <Meter
+                kind="divergent"
+                values={[
+                  { label: "disagree", value: [10, -100] },
+                  { label: "disagree a bit", value: [25, -70] },
+                  { label: "neutral", value: [30, 0] },
+                  { label: "agree a bit", value: [20, 30] },
+                  { label: "agree", value: [15, 100] },
+                ]}
+                type="semicircle"
+                size="small"
+              />
+            </Grid>
 
             <Footer margin={{ vertical: "medium" }}>
               <Text size="small" color="weak">
