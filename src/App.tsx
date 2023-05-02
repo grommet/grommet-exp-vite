@@ -159,11 +159,12 @@ function App() {
             <Grid columns="small" gap="medium">
               <Meter value={80} round size="small" />
               <Meter
+                id="qualbar"
                 kind="qualitative"
                 values={[
-                  { label: "tropic", value: 60 },
+                  { label: "tropic", value: 60, pattern: "dots" },
                   { label: "temperate", value: 20 },
-                  { label: "pole", value: 10 },
+                  { label: "pole", value: 10, pattern: "diagonals" },
                 ]}
                 size="small"
               />
@@ -201,11 +202,12 @@ function App() {
                 size="small"
               />
               <Meter
+                id="seqpie"
                 kind="sequential"
                 values={[
                   { label: "light", value: [25, 20] },
-                  { label: "medium", value: [60, 50] },
-                  { label: "heavy", value: [15, 80] },
+                  { label: "medium", value: [60, 50], pattern: 'dots' },
+                  { label: "heavy", value: [15, 80], pattern: 'diagonals' },
                 ]}
                 type="pie"
                 size="small"
