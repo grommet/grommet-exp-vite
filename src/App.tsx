@@ -12,6 +12,7 @@ import {
   Heading,
   Header,
   Icon,
+  Legend,
   Meter,
   NameValueList,
   NameValuePair,
@@ -156,74 +157,101 @@ function App() {
             </Tabs>
 
             <Heading level={2}>Meter</Heading>
-            <Grid columns="small" gap="medium">
+            <Box direction="row" gap="large" align="center">
               <Meter value={80} round size="small" />
-              <Meter
-                id="qualbar"
-                kind="qualitative"
-                values={[
-                  { label: "tropic", value: 60, pattern: "dots" },
-                  { label: "temperate", value: 20 },
-                  { label: "pole", value: 10, pattern: "diagonals" },
-                ]}
-                size="small"
-              />
-              <Meter
-                kind="sequential"
-                values={[
-                  { label: "light", value: [25, 20] },
-                  { label: "medium", value: [60, 50] },
-                  { label: "heavy", value: [15, 80] },
-                ]}
-                size="small"
-              />
-              <Meter
-                kind="divergent"
-                values={[
-                  { label: "disagree", value: [10, -100] },
-                  { label: "disagree a bit", value: [25, -70] },
-                  { label: "neutral", value: [30, 0] },
-                  { label: "agree a bit", value: [20, 30] },
-                  { label: "agree", value: [15, 100] },
-                ]}
-                size="small"
-              />
-            </Grid>
-            <Grid columns="small" gap="medium">
               <Meter value={80} round type="circle" size="small" />
-              <Meter
-                kind="qualitative"
+              <Legend
                 values={[
-                  { label: "tropic", value: 60 },
-                  { label: "temperate", value: 20 },
-                  { label: "pole", value: 10 },
+                  { label: "used", value: 80 },
+                  { label: "unused", value: 20 },
                 ]}
-                type="circle"
-                size="small"
               />
-              <Meter
-                id="seqpie"
-                kind="sequential"
-                values={[
-                  { label: "light", value: [25, 20] },
-                  { label: "medium", value: [60, 50], pattern: 'dots' },
-                  { label: "heavy", value: [15, 80], pattern: 'diagonals' },
-                ]}
-                type="pie"
-                size="small"
-              />
-              <Meter
-                kind="divergent"
-                values={[
-                  { label: "disagree", value: [10, -100] },
-                  { label: "disagree a bit", value: [25, -70] },
-                  { label: "neutral", value: [30, 0] },
-                  { label: "agree a bit", value: [20, 30] },
-                  { label: "agree", value: [15, 100] },
-                ]}
-                type="semicircle"
-                size="small"
-              />
+            </Box>
+            <Grid columns="small" gap="medium">
+              <Box gap="medium">
+                <Meter
+                  id="qualbar"
+                  kind="qualitative"
+                  values={[
+                    { label: "tropic", value: 60, pattern: "dots" },
+                    { label: "temperate", value: 20 },
+                    { label: "pole", value: 10, pattern: "diagonals" },
+                  ]}
+                  size="small"
+                />
+                <Meter
+                  kind="qualitative"
+                  values={[
+                    { label: "tropic", value: 60 },
+                    { label: "temperate", value: 20 },
+                    { label: "pole", value: 10 },
+                  ]}
+                  type="circle"
+                  size="small"
+                />
+                <Legend
+                  values={[
+                    { label: "tropic", value: 60 },
+                    { label: "temperate", value: 20 },
+                    { label: "pole", value: 10 },
+                  ]}
+                />
+              </Box>
+              <Box gap="medium">
+                <Meter
+                  kind="sequential"
+                  values={[
+                    { label: "light", value: [25, 20] },
+                    { label: "medium", value: [60, 50] },
+                    { label: "heavy", value: [15, 80] },
+                  ]}
+                  size="small"
+                />
+                <Meter
+                  id="seqpie"
+                  kind="sequential"
+                  values={[
+                    { label: "light", value: [25, 20] },
+                    { label: "medium", value: [60, 50], pattern: "dots" },
+                    { label: "heavy", value: [15, 80], pattern: "diagonals" },
+                  ]}
+                  type="pie"
+                  size="small"
+                />
+                <Legend
+                  kind="sequential"
+                  values={[
+                    { label: "light", value: [25, 20] },
+                    { label: "medium", value: [60, 50], pattern: "dots" },
+                    { label: "heavy", value: [15, 80], pattern: "diagonals" },
+                  ]}
+                />
+              </Box>
+              <Box gap="medium">
+                <Meter
+                  kind="divergent"
+                  values={[
+                    { label: "disagree", value: [10, -100] },
+                    { label: "disagree a bit", value: [25, -70] },
+                    { label: "neutral", value: [30, 0] },
+                    { label: "agree a bit", value: [20, 30] },
+                    { label: "agree", value: [15, 100] },
+                  ]}
+                  size="small"
+                />
+                <Meter
+                  kind="divergent"
+                  values={[
+                    { label: "disagree", value: [10, -100] },
+                    { label: "disagree a bit", value: [25, -70] },
+                    { label: "neutral", value: [30, 0] },
+                    { label: "agree a bit", value: [20, 30] },
+                    { label: "agree", value: [15, 100] },
+                  ]}
+                  type="semicircle"
+                  size="small"
+                />
+              </Box>
             </Grid>
 
             <Footer margin={{ vertical: "medium" }}>
