@@ -2,9 +2,13 @@
   "version": "v1",
   "packages": {
     "grommet-exp": {
-      "signature": "03824c1f5012d0feedcb9e7c1d0ac8f1",
+      "signature": "0f15b1d8e2b5a5d4d20c0aecdc909c1d",
       "file": true,
       "replaced": "https://github.com/grommet/grommet-exp/tarball/stable"
+    },
+    "grommet-exp-theme": {
+      "signature": "7adcb896df6f728b33e27ecc21266289",
+      "file": true
     }
   }
 }
