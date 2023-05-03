@@ -217,14 +217,7 @@ function App() {
                   ]}
                   type="pie"
                   size="small"
-                />
-                <Legend
-                  kind="sequential"
-                  values={[
-                    { label: "light", value: [25, 20] },
-                    { label: "medium", value: [60, 50], pattern: "dots" },
-                    { label: "heavy", value: [15, 80], pattern: "diagonals" },
-                  ]}
+                  legend
                 />
               </Box>
               <Box gap="medium">
