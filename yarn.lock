@@ -843,7 +843,7 @@ globals@^11.1.0:
 
 "grommet-exp-theme@https://github.com/grommet/grommet-exp-theme/tarball/stable":
   version "1.0.0"
-  resolved "https://github.com/grommet/grommet-exp-theme/tarball/stable#457c61e429bdd98db77f0bc5e94fbcd68c1943d2"
+  resolved "https://github.com/grommet/grommet-exp-theme/tarball/stable#9b52a33b39918bc1c2ccaa3a2baf648b2dec1ef1"
   dependencies:
     "@vanilla-extract/css" "^1.9.5"
     "@vanilla-extract/recipes" "^0.3.0"
@@ -851,7 +851,7 @@ globals@^11.1.0:
 
 "grommet-exp@https://github.com/grommet/grommet-exp/tarball/stable":
   version "0.1.0"
-  resolved "https://github.com/grommet/grommet-exp/tarball/stable#78e920100f4147fc6c9a12a4ce2029402cdb73ee"
+  resolved "https://github.com/grommet/grommet-exp/tarball/stable#bded3cd3565b508a1f3b5b9c259cb79301d68821"
   dependencies:
     grommet-exp-theme "https://github.com/grommet/grommet-exp-theme/tarball/stable"
     hpe-design-tokens "https://github.com/grommet/hpe-design-tokens/tarball/stable"
