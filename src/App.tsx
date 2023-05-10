@@ -50,7 +50,7 @@ function App() {
           <Button label="Manage" size="xsmall" />
         </Nav>
         <Box direction="row" align="center" gap="small">
-          <Button size="large" icon={<Notification />} />
+          <Button icon={<Notification />} />
           <Button icon={<HelpOption />} />
           <Button icon={<AppsRounded />} />
         </Box>
