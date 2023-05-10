@@ -30,18 +30,18 @@ import {
   TextInput,
 } from "grommet-exp";
 
-import hpe from "grommet-icons/img/hpe.svg";
-import notification from "grommet-icons/img/notification.svg";
-import linkNext from "grommet-icons/img/link-next.svg";
-import helpOption from "grommet-icons/img/help-option.svg";
-import appsRounded from "grommet-icons/img/apps-rounded.svg";
+import { ReactComponent as Hpe } from "grommet-icons/img/hpe.svg";
+import { ReactComponent as Notification } from "grommet-icons/img/notification.svg";
+import { ReactComponent as LinkNext } from "grommet-icons/img/link-next.svg";
+import { ReactComponent as HelpOption } from "grommet-icons/img/help-option.svg";
+import { ReactComponent as AppsRounded } from "grommet-icons/img/apps-rounded.svg";
 
 function App() {
   return (
     <Grommet>
       <Header pad="small" border="bottom">
         <Box direction="row" align="center" gap="small">
-          <Icon size="xlarge" src={hpe} />
+          <Hpe />
           <Text>HPE GreenLake</Text>
         </Box>
         <Nav direction="row" justify="center">
@@ -50,9 +50,9 @@ function App() {
           <Button label="Manage" size="xsmall" />
         </Nav>
         <Box direction="row" align="center" gap="small">
-          <Button icon={<Icon src={notification} />} />
-          <Button icon={<Icon src={helpOption} />} />
-          <Button icon={<Icon src={appsRounded} />} />
+          <Button size="large" icon={<Notification />} />
+          <Button icon={<HelpOption />} />
+          <Button icon={<AppsRounded />} />
         </Box>
       </Header>
       <Page kind="wide" layout="header-main">
@@ -80,7 +80,7 @@ function App() {
                   </Paragraph>
                   <Footer>
                     <div />
-                    <Button icon={<Icon src={linkNext} />} />
+                    <Button icon={<LinkNext />} />
                   </Footer>
                 </Card>
                 <Card as="li">
@@ -92,7 +92,7 @@ function App() {
                   </Paragraph>
                   <Footer>
                     <div />
-                    <Button icon={<Icon src={linkNext} />} />
+                    <Button icon={<LinkNext />} />
                   </Footer>
                 </Card>
                 <Card as="li">
@@ -104,7 +104,7 @@ function App() {
                   </Paragraph>
                   <Footer>
                     <div />
-                    <Button icon={<Icon src={linkNext} />} />
+                    <Button icon={<LinkNext />} />
                   </Footer>
                 </Card>
               </Grid>

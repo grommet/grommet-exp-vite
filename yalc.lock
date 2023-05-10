@@ -5,14 +5,14 @@
       "signature": "9d21dcf459fe5d92e95890ddadb3f659",
       "file": true
     },
+    "grommet-exp-theme": {
+      "signature": "bc9cea37ec0f1e14fc3706af9343a4b9",
+      "file": true
+    },
     "grommet-exp": {
-      "signature": "21ba33d46e041532b438f2304b734023",
+      "signature": "97c9577282837f69a9dcbe392c58b148",
       "file": true,
       "replaced": "https://github.com/grommet/grommet-exp/tarball/stable"
-    },
-    "grommet-exp-theme": {
-      "signature": "33fc1c576230276cdf588b3411132a2d",
-      "file": true
     }
   }
 }
