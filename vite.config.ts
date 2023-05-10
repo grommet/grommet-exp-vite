@@ -7,7 +7,19 @@ import svgr from "vite-plugin-svgr";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    svgr(),
+    svgr({
+      svgrOptions: {
+        svgoConfig: {
+          plugins: [
+            {
+              name: "removeViewBox",
+              active: false,
+            },
+            "removeDimensions",
+          ],
+        },
+      },
+    }),
     image(),
     react(),
     vanillaExtractPlugin(),

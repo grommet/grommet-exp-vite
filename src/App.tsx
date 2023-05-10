@@ -41,7 +41,7 @@ function App() {
     <Grommet>
       <Header pad="small" border="bottom">
         <Box direction="row" align="center" gap="small">
-          <Hpe />
+          <Icon svg={<Hpe />} size="xlarge" />
           <Text>HPE GreenLake</Text>
         </Box>
         <Nav direction="row" justify="center">
@@ -63,12 +63,13 @@ function App() {
           />
           <PageMain>
             <Box gap="medium">
-              <Box gap="small">
+              <Box gap="small" align="start">
                 <Heading level={2}>Card</Heading>
                 <Paragraph level={2}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Paragraph>
+                <Button kind="primary" reverse label="Discover" icon={<LinkNext />} />
               </Box>
               <Grid as="ul" columns="small" gap="medium">
                 <Card as="li">
