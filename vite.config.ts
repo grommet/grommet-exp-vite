@@ -9,13 +9,27 @@ export default defineConfig({
   plugins: [
     svgr({
       svgrOptions: {
+        dimensions: false,
         svgoConfig: {
           plugins: [
+            // {
+            //   removeAttrs: {
+            //     attrs: 'path:stroke',
+            //   },
+            // },
             {
-              name: "removeViewBox",
-              active: false,
+              name: 'removeAttrs',
+              params: {
+                attrs: 'path:stroke',
+              },
             },
-            "removeDimensions",
+            // {
+            //   name: "removeAttributesBySelector",
+            //   params: {
+            //     selector: "[stroke='#000']",
+            //     attributes: ["stroke"],
+            //   },
+            // },
           ],
         },
       },
